@@ -1,0 +1,10 @@
+E:\files\C++\wpc\sketch_system\DrawingForm\bin\Debug\DrawingForm.exe.config
+E:\files\C++\wpc\sketch_system\DrawingForm\bin\Debug\DrawingForm.exe
+E:\files\C++\wpc\sketch_system\DrawingForm\bin\Debug\DrawingForm.pdb
+E:\files\C++\wpc\sketch_system\DrawingForm\obj\Debug\DrawingForm.csprojAssemblyReference.cache
+E:\files\C++\wpc\sketch_system\DrawingForm\obj\Debug\DrawingForm.MainWindow.resources
+E:\files\C++\wpc\sketch_system\DrawingForm\obj\Debug\DrawingForm.Properties.Resources.resources
+E:\files\C++\wpc\sketch_system\DrawingForm\obj\Debug\DrawingForm.csproj.GenerateResource.cache
+E:\files\C++\wpc\sketch_system\DrawingForm\obj\Debug\DrawingForm.csproj.CoreCompileInputs.cache
+E:\files\C++\wpc\sketch_system\DrawingForm\obj\Debug\DrawingForm.exe
+E:\files\C++\wpc\sketch_system\DrawingForm\obj\Debug\DrawingForm.pdb
