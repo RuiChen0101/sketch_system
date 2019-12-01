@@ -21,7 +21,6 @@ namespace DrawingApp.PresentationModel
         //Draw
         public void Draw()
         {
-            // 重複使用igraphics物件
             _model.Draw(_graphics);
         }
     }

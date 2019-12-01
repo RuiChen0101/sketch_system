@@ -24,6 +24,8 @@ namespace DrawingApp
     {
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
+        List<Button> _shapesButton = new List<Button>();
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -34,11 +36,26 @@ namespace DrawingApp
             _canvas.PointerMoved += HandleCanvasMoved;
             _clear.Click += HandleClearButtonClick;
             _model._modelChanged += HandleModelChanged;
+            this.InitialButtonList();
         }
 
-        //OnNavigatedTo
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        //InitialButtonList
+        private void InitialButtonList()
         {
+            _shapesButton.Add(this._line);
+            _shapesButton.Add(this._rectangle);
+        }
+
+        //HandleShapeButtonClick
+        public void HandleShapeButtonClick(object sender, RoutedEventArgs e)
+        {
+            foreach (Button button in _shapesButton)
+            {
+                button.IsEnabled = true;
+            }
+            Button source = (Button)sender;
+            source.IsEnabled = false;
+            _model.ChangeShape((string)source.Content);
         }
 
         //HandleClearButtonClick

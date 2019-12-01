@@ -55,6 +55,12 @@
     <Compile Include="..\DrawingModel\Model.cs">
       <Link>Model.cs</Link>
     </Compile>
+    <Compile Include="..\DrawingModel\Rectangle.cs">
+      <Link>Rectangle.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\Shape.cs">
+      <Link>Shape.cs</Link>
+    </Compile>
     <Compile Include="DoubleBufferedPanel.cs">
       <SubType>Component</SubType>
     </Compile>

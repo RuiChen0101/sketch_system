@@ -15,6 +15,8 @@ namespace DrawingForm
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
         Panel _canvas = new DoubleBufferedPanel();
+        List<Button> _shapesButton = new List<Button>();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -28,6 +30,26 @@ namespace DrawingForm
             _model = new DrawingModel.Model();
             _presentationModel = new PresentationModel.PresentationModel(_model,_canvas);
             _model._modelChanged += HandleModelChanged;
+            this.InitialButtonList();
+        }
+
+        //InitialButtonList
+        private void InitialButtonList()
+        {
+            _shapesButton.Add(this._line);
+            _shapesButton.Add(this._rectangle);
+        }
+
+        //HandleShapeButtonClick
+        public void HandleShapeButtonClick(object sender, EventArgs e)
+        {
+            foreach (Button button in _shapesButton)
+            {
+                button.Enabled = true;
+            }
+            Button source = (Button)sender;
+            source.Enabled = false;
+            _model.ChangeShape(source.Text);
         }
 
         //HandleClearButtonClick

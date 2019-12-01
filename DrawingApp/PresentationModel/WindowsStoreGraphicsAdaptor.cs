@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Shapes;
 using Windows.UI.Xaml.Media;
 using DrawingModel;
+using Windows.UI.Xaml;
 
 namespace DrawingApp.PresentationModel
 {
@@ -35,6 +35,17 @@ namespace DrawingApp.PresentationModel
             line.Y2 = y2;
             line.Stroke = new SolidColorBrush(Colors.Black);
             _canvas.Children.Add(line);
+        }
+
+        //DrawRectangle
+        public void DrawRectangle(double x1, double y1, double width, double height)
+        {
+            Windows.UI.Xaml.Shapes.Rectangle rectangle = new Windows.UI.Xaml.Shapes.Rectangle();
+            rectangle.Margin = new Thickness(x1, y1, 0, 0);
+            rectangle.Width = width;
+            rectangle.Height = height;
+            rectangle.Stroke = new SolidColorBrush(Colors.Black);
+            _canvas.Children.Add(rectangle);
         }
     }
 }
