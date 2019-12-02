@@ -46,7 +46,6 @@
             // 
             // _line
             // 
-            this._line.Enabled = false;
             this._line.Location = new System.Drawing.Point(356, 3);
             this._line.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this._line.Name = "_line";
@@ -54,7 +53,7 @@
             this._line.TabIndex = 1;
             this._line.Text = "Line";
             this._line.UseVisualStyleBackColor = true;
-            this._line.Click += new System.EventHandler(this.HandleShapeButtonClick);
+            this._line.Click += new System.EventHandler(this.HandleLineButtonClick);
             // 
             // _rectangle
             // 
@@ -65,7 +64,7 @@
             this._rectangle.TabIndex = 2;
             this._rectangle.Text = "Rectangle";
             this._rectangle.UseVisualStyleBackColor = true;
-            this._rectangle.Click += new System.EventHandler(this.HandleShapeButtonClick);
+            this._rectangle.Click += new System.EventHandler(this.HandleRectangleButtonClick);
             // 
             // MainWindow
             // 

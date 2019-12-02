@@ -24,7 +24,6 @@ namespace DrawingApp
     {
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
-        List<Button> _shapesButton = new List<Button>();
 
         public MainPage()
         {
@@ -36,31 +35,30 @@ namespace DrawingApp
             _canvas.PointerMoved += HandleCanvasMoved;
             _clear.Click += HandleClearButtonClick;
             _model._modelChanged += HandleModelChanged;
-            this.InitialButtonList();
         }
 
-        //InitialButtonList
-        private void InitialButtonList()
+        //HandleRectangleButtonClick
+        private void HandleRectangleButtonClick(object sender, RoutedEventArgs e)
         {
-            _shapesButton.Add(this._line);
-            _shapesButton.Add(this._rectangle);
+            _rectangle.IsEnabled = false;
+            _line.IsEnabled = true;
+            _model.ChangeShape(DrawingModel.Model.Status.RECTANGLE);
         }
 
-        //HandleShapeButtonClick
-        public void HandleShapeButtonClick(object sender, RoutedEventArgs e)
+        //HandleLineButtonClick
+        public void HandleLineButtonClick(object sender, RoutedEventArgs e)
         {
-            foreach (Button button in _shapesButton)
-            {
-                button.IsEnabled = true;
-            }
-            Button source = (Button)sender;
-            source.IsEnabled = false;
-            _model.ChangeShape((string)source.Content);
+            _rectangle.IsEnabled = true;
+            _line.IsEnabled = false;
+            _model.ChangeShape(DrawingModel.Model.Status.LINE);
         }
 
         //HandleClearButtonClick
         private void HandleClearButtonClick(object sender, RoutedEventArgs e)
         {
+            _rectangle.IsEnabled = true;
+            _line.IsEnabled = true;
+            _model.ChangeShape(DrawingModel.Model.Status.IDLE);
             _model.Clear();
         }
 

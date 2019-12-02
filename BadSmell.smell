@@ -194,7 +194,7 @@
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>Model.cs</File>
-              <Line>38</Line>
+              <Line>45</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -210,7 +210,7 @@
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>Model.cs</File>
-              <Line>38</Line>
+              <Line>45</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -226,7 +226,7 @@
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>Model.cs</File>
-              <Line>49</Line>
+              <Line>56</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -242,7 +242,7 @@
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>Model.cs</File>
-              <Line>49</Line>
+              <Line>56</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -258,7 +258,7 @@
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>Model.cs</File>
-              <Line>60</Line>
+              <Line>67</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -274,7 +274,7 @@
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>Model.cs</File>
-              <Line>60</Line>
+              <Line>67</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -352,7 +352,7 @@
               <HashCode>25 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
               <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>25</Line>
               <StartLine>25</StartLine>
@@ -368,7 +368,7 @@
               <HashCode>28 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>28</Line>
               <StartLine>27</StartLine>
@@ -384,7 +384,7 @@
               <HashCode>29 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>29</Line>
               <StartLine>28</StartLine>
@@ -400,7 +400,7 @@
               <HashCode>33 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>33</Line>
               <StartLine>32</StartLine>
@@ -416,7 +416,7 @@
               <HashCode>34 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>34</Line>
               <StartLine>33</StartLine>
@@ -432,7 +432,7 @@
               <HashCode>40 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
               <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>40</Line>
               <StartLine>40</StartLine>
@@ -448,7 +448,7 @@
               <HashCode>43 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>43</Line>
               <StartLine>42</StartLine>
@@ -464,7 +464,7 @@
               <HashCode>44 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>44</Line>
               <StartLine>43</StartLine>
@@ -480,7 +480,7 @@
               <HashCode>48 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>48</Line>
               <StartLine>47</StartLine>
@@ -496,7 +496,7 @@
               <HashCode>49 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingApp</Project>
+              <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
               <Line>49</Line>
               <StartLine>48</StartLine>
@@ -613,7 +613,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>809</ProductionLoc>
+          <ProductionLoc>813</ProductionLoc>
           <TestLoc>100</TestLoc>
         </CodeReview>
       </Data>

@@ -11,24 +11,31 @@ namespace DrawingModel
         public event ModelChangedEventHandler _modelChanged;
         public delegate void ModelChangedEventHandler();
 
-        const string LINE = "Line";
-        const string RECTANGLE = "Rectangle";
-        string _currentShape = LINE;
+        public enum Status
+        {
+            IDLE,
+            LINE,
+            RECTANGLE
+        };
+
+        Status _currentShape = Status.IDLE;
         bool _isPressed = false;
         List<Shape> _shapes = new List<Shape>();
-        Shape _hint = new Line();
+        Shape _hint = null;
 
         //ChangeShape
-        public void ChangeShape(string shape)
+        public void ChangeShape(Status status)
         {
-            Console.WriteLine(shape);
-            _currentShape = shape;
-            switch (shape)
+            _currentShape = status;
+            switch (status)
             {
-                case LINE:
+                case Status.IDLE:
+                    _hint = null;
+                    break;
+                case Status.LINE:
                     _hint = new Line();
                     break;
-                case RECTANGLE:
+                case Status.RECTANGLE:
                     _hint = new Rectangle();
                     break;
             }
@@ -37,7 +44,7 @@ namespace DrawingModel
         //PointerPressed
         public void PressPointer(double x, double y)
         {
-            if (x > 0 && y > 0)
+            if (x > 0 && y > 0 && _hint != null)
             {
                 _hint.x1 = x;
                 _hint.y1 = y;
@@ -48,7 +55,7 @@ namespace DrawingModel
         //PointerMoved
         public void MovePointer(double x, double y)
         {
-            if (_isPressed)
+            if (_isPressed && _hint != null)
             {
                 _hint.x2 = x;
                 _hint.y2 = y;
@@ -59,7 +66,7 @@ namespace DrawingModel
         //PointerReleased
         public void ReleasePointer(double x, double y)
         {
-            if (_isPressed)
+            if (_isPressed && _hint != null)
             {
                 _isPressed = false;
                 _shapes.Add(_hint);
@@ -82,7 +89,7 @@ namespace DrawingModel
             graphics.ClearAll();
             foreach (Shape aShape in _shapes)
                 aShape.Draw(graphics);
-            if (_isPressed)
+            if (_isPressed && _hint != null)
                 _hint.Draw(graphics);
         }
 

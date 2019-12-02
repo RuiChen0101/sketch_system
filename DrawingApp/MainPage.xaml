@@ -9,8 +9,8 @@
 
     <Grid Width="1366" Height="768"  Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="_clear" Content="Clear" HorizontalAlignment="Stretch" Margin="969,4,9,0" VerticalAlignment="Top" Height="38" Click="HandleClearButtonClick"/>
-        <Button x:Name="_rectangle" Content="Rectangle" HorizontalAlignment="Stretch" Margin="9,4,951,0" VerticalAlignment="Top" Height="38" Click="HandleShapeButtonClick"/>
-        <Button x:Name="_line" Content="Line" HorizontalAlignment="Stretch" Margin="514,4,486,0" VerticalAlignment="Top" Height="38" IsRightTapEnabled="False" IsEnabled="False" Click="HandleShapeButtonClick"/>
+        <Button x:Name="_rectangle" Content="Rectangle" HorizontalAlignment="Stretch" Margin="9,4,951,0" VerticalAlignment="Top" Height="38" Click="HandleRectangleButtonClick"/>
+        <Button x:Name="_line" Content="Line" HorizontalAlignment="Stretch" Margin="514,4,486,0" VerticalAlignment="Top" Height="38" IsRightTapEnabled="False" Click="HandleLineButtonClick"/>
         <Canvas x:Name="_canvas" Margin="9,47,9,9" Background="#FFFFFFA0"/>
     </Grid>
 </Page>
