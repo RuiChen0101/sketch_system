@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace DrawingForm.PresentationModel
 {
-    class PresentationModel
+    public class PresentationModel
     {
         Model _model;
         public PresentationModel(Model model, Control canvas)

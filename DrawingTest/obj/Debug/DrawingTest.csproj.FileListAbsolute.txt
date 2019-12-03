@@ -1,0 +1,17 @@
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\DrawingTest.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\DrawingTest.pdb
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\files\C++\wpc\sketch_system\DrawingTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\files\C++\wpc\sketch_system\DrawingTest\obj\Debug\DrawingTest.csprojAssemblyReference.cache
+E:\files\C++\wpc\sketch_system\DrawingTest\obj\Debug\DrawingTest.csproj.CoreCompileInputs.cache
+E:\files\C++\wpc\sketch_system\DrawingTest\obj\Debug\DrawingTest.csproj.CopyComplete
+E:\files\C++\wpc\sketch_system\DrawingTest\obj\Debug\DrawingTest.dll
+E:\files\C++\wpc\sketch_system\DrawingTest\obj\Debug\DrawingTest.pdb
