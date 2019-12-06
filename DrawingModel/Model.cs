@@ -44,7 +44,7 @@ namespace DrawingModel
         //PointerPressed
         public void PressPointer(double x, double y)
         {
-            if (x > 0 && y > 0 && _hint != null)
+            if (x >= 0 && y >= 0 && _hint != null)
             {
                 _hint.x1 = x;
                 _hint.y1 = y;
@@ -59,7 +59,7 @@ namespace DrawingModel
             {
                 _hint.x2 = x;
                 _hint.y2 = y;
-                NotifyModelChanged();
+                this._modelChanged();
             }
         }
 
@@ -71,7 +71,7 @@ namespace DrawingModel
                 _isPressed = false;
                 _shapes.Add(_hint);
                 ChangeShape(_currentShape);
-                NotifyModelChanged();
+                this._modelChanged();
             }
         }
 
@@ -80,7 +80,7 @@ namespace DrawingModel
         {
             _isPressed = false;
             _shapes.Clear();
-            NotifyModelChanged();
+            this._modelChanged();
         }
 
         //Draw
@@ -91,13 +91,6 @@ namespace DrawingModel
                 aShape.Draw(graphics);
             if (_isPressed && _hint != null)
                 _hint.Draw(graphics);
-        }
-
-        //NotifyModelChanged
-        void NotifyModelChanged()
-        {
-            if (_modelChanged != null)
-                _modelChanged();
         }
     }
 }
