@@ -49,8 +49,29 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\DrawingModel\CanvasClearCommand.cs">
+      <Link>CanvasClearCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\CommandManager.cs">
+      <Link>CommandManager.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\DrawCommand.cs">
+      <Link>DrawCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\DrawState.cs">
+      <Link>DrawState.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\Hexagon.cs">
+      <Link>Hexagon.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\ICommand.cs">
+      <Link>ICommand.cs</Link>
+    </Compile>
     <Compile Include="..\DrawingModel\IGraphics.cs">
       <Link>IGraphics.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\IMouseState.cs">
+      <Link>IMouseState.cs</Link>
     </Compile>
     <Compile Include="..\DrawingModel\Line.cs">
       <Link>Line.cs</Link>
@@ -58,14 +79,26 @@
     <Compile Include="..\DrawingModel\Model.cs">
       <Link>Model.cs</Link>
     </Compile>
+    <Compile Include="..\DrawingModel\PointerState.cs">
+      <Link>PointerState.cs</Link>
+    </Compile>
     <Compile Include="..\DrawingModel\Rectangle.cs">
       <Link>Rectangle.cs</Link>
+    </Compile>
+    <Compile Include="..\DrawingModel\ResizeCommand.cs">
+      <Link>ResizeCommand.cs</Link>
     </Compile>
     <Compile Include="..\DrawingModel\Shape.cs">
       <Link>Shape.cs</Link>
     </Compile>
+    <Compile Include="..\DrawingModel\ShapeFactory.cs">
+      <Link>ShapeFactory.cs</Link>
+    </Compile>
+    <Compile Include="CommandTest.cs" />
     <Compile Include="ModelTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShapeFactoryTest.cs" />
+    <Compile Include="ShapeTest.cs" />
     <Compile Include="TestGraphicsAdaptor.cs" />
   </ItemGroup>
   <ItemGroup>

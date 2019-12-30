@@ -18,5 +18,12 @@ namespace DrawingUITest
             Mouse.StartDragging(canvas, new Point(x1, y1));
             Mouse.StopDragging(canvas, new Point(x2, y2));
         }
+
+        //MouseClick
+        public static void MouseClick(int x, int y)
+        {
+            UITestControl canvas = Robot.FindPanel(CANVAS_NAME);
+            Mouse.Click(canvas, new Point(x, y));
+        }
     }
 }

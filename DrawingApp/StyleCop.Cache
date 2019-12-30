@@ -18,18 +18,35 @@
     <timestamps>
       <styleCop>2019/11/11 21:37:12.789</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2019/12/02 19:44:42.709</sourceFile>
+      <sourceFile>2019/12/30 19:27:02.234</sourceFile>
       <parser>2019/11/11 21:37:12.789</parser>
       <KellyPalRules.KellyPalAnalyzer>2019/11/11 21:37:12.789</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="UnsuitableNaming" ruleCheckId="UN0001">
+        <context>Unsuitable naming(名不符實)-HandleHexagonButtonClick(hexagon)</context>
+        <line>55</line>
+        <index>1897</index>
+        <endIndex>2179</endIndex>
+        <startLine>55</startLine>
+        <startColumn>9</startColumn>
+        <endLine>61</endLine>
+        <endColumn>9</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="Method4" ruleCheckId="MT0004">
+        <context>ICS(函式-4)</context>
+        <line>102</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="PresentationModel.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2019/11/11 21:37:12.789</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2019/12/01 11:00:07.725</sourceFile>
+      <sourceFile>2019/12/30 10:36:20.453</sourceFile>
       <parser>2019/11/11 21:37:12.789</parser>
       <KellyPalRules.KellyPalAnalyzer>2019/11/11 21:37:12.789</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
@@ -40,12 +57,62 @@
     <timestamps>
       <styleCop>2019/11/11 21:37:12.789</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2019/12/01 11:08:56.053</sourceFile>
+      <sourceFile>2019/12/23 22:24:11.534</sourceFile>
       <parser>2019/11/11 21:37:12.789</parser>
       <KellyPalRules.KellyPalAnalyzer>2019/11/11 21:37:12.789</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
     </timestamps>
-    <violations />
+    <violations>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="UnsuitableNaming" ruleCheckId="UN0001">
+        <context>Unsuitable naming(名不符實)-polygon(polygon)</context>
+        <line>55</line>
+        <index>1714</index>
+        <endIndex>1759</endIndex>
+        <startLine>55</startLine>
+        <startColumn>44</startColumn>
+        <endLine>55</endLine>
+        <endColumn>89</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="UnsuitableNaming" ruleCheckId="UN0001">
+        <context>Unsuitable naming(名不符實)-DrawHexagon(hexagon)</context>
+        <line>53</line>
+        <index>1603</index>
+        <endIndex>2219</endIndex>
+        <startLine>53</startLine>
+        <startColumn>9</startColumn>
+        <endLine>65</endLine>
+        <endColumn>9</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="IndentAndNewLine1" ruleCheckId="IN0001">
+        <context>ICS(縮排與換行-1)</context>
+        <line>81</line>
+        <index>2960</index>
+        <endIndex>2960</endIndex>
+        <startLine>81</startLine>
+        <startColumn>62</startColumn>
+        <endLine>81</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="IndentAndNewLine3" ruleCheckId="IN0003">
+        <context>ICS(縮排與換行-3)</context>
+        <line>81</line>
+        <index>2960</index>
+        <endIndex>2960</endIndex>
+        <startLine>81</startLine>
+        <startColumn>62</startColumn>
+        <endLine>81</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="LongMethod" ruleCheckId="LM0001">
+        <context>Long method(過長函式)</context>
+        <line>68</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
   </sourcecode>
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>

@@ -29,5 +29,20 @@ namespace DrawingTest
             Assert.IsTrue(width >= 0);
             Assert.IsTrue(height >= 0);
         }
+
+        //DrawHexagon
+        public void DrawHexagon(Tuple<double, double>[] points)
+        {
+            Assert.AreEqual(6, points.Length);
+        }
+
+        //DrawDashBorder
+        public void DrawDashBorder(double x1, double y1, double x2, double y2)
+        {
+            Assert.IsTrue(x1 >= 0);
+            Assert.IsTrue(y1 >= 0);
+            Assert.IsTrue(x2 >= 0);
+            Assert.IsTrue(y2 >= 0);
+        }
     }
 }

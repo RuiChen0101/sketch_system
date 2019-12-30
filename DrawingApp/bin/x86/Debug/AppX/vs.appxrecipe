@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>6AC3D8AB3DF4ECEB2627F2CAA1F928EF1775EE63EFD5179FD68377CCAB0A2DBB</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C3538FC9874854EDB423EDF4C33211848D8BF0D27E8CE32C2878675E0700C083</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0a494989-b687-4247-a2ad-58989f815ad0_1.0.0.0_x86__b9rnpyxqsp8yg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0a494989-b687-4247-a2ad-58989f815ad0_b9rnpyxqsp8yg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>0a494989-b687-4247-a2ad-58989f815ad0</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-02T11:44:49.569</Modified>
+      <Modified>2019-12-24T06:04:15.255</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\DrawingApp.exe">
       <PackagePath>entrypoint\DrawingApp.exe</PackagePath>
-      <Modified>2019-12-02T11:44:49.258</Modified>
+      <Modified>2019-12-24T06:04:14.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\DrawingApp.xr.xml">
       <PackagePath>DrawingApp.xr.xml</PackagePath>
-      <Modified>2019-12-02T11:43:59.385</Modified>
+      <Modified>2019-12-24T06:02:48.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-02T11:44:49.112</Modified>
+      <Modified>2019-12-24T06:04:14.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-12-02T11:44:49.113</Modified>
+      <Modified>2019-12-24T06:04:14.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +102,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-30T05:34:15.618</Modified>
+      <Modified>2019-12-24T05:51:36.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\files\C++\wpc\sketch_system\DrawingApp\bin\x86\Debug\Core\DrawingApp.exe">
       <PackagePath>DrawingApp.exe</PackagePath>
-      <Modified>2019-12-02T11:44:49.566</Modified>
+      <Modified>2019-12-24T06:04:15.253</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

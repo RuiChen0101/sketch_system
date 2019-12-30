@@ -12,7 +12,7 @@ namespace DrawingForm
 {
     public partial class MainWindow : Form
     {
-        private static string CANVAS_ACCESS = "canvas";
+        public const string CANVAS_ACCESS = "canvas";
 
         DrawingModel.Model _model;
         PresentationModel.PresentationModel _presentationModel;
@@ -33,22 +33,34 @@ namespace DrawingForm
             _model = new DrawingModel.Model();
             _presentationModel = new PresentationModel.PresentationModel(_model,_canvas);
             _model._modelChanged += HandleModelChanged;
+            _model._shapeSelect += HandleShapeSelect;
         }
 
         //HandleRectangleButtonClick
         private void HandleRectangleButtonClick(object sender, EventArgs e)
         {
             _rectangle.Enabled = false;
+            _hexagon.Enabled = true;
             _line.Enabled = true;
-            _model.ChangeShape(DrawingModel.Model.Status.RECTANGLE);
+            _model.ChangeShape(DrawingModel.Model.ShapeType.RECTANGLE);
         }
 
         //HandleLineButtonClick
         public void HandleLineButtonClick(object sender, EventArgs e)
         {
             _rectangle.Enabled = true;
+            _hexagon.Enabled = true;
             _line.Enabled = false;
-            _model.ChangeShape(DrawingModel.Model.Status.LINE);
+            _model.ChangeShape(DrawingModel.Model.ShapeType.LINE);
+        }
+
+        //HandleHexagonButtonClick
+        private void HandleHexagonButtonClick(object sender, EventArgs e)
+        {
+            _rectangle.Enabled = true;
+            _hexagon.Enabled = false;
+            _line.Enabled = true;
+            _model.ChangeShape(DrawingModel.Model.ShapeType.HEXAGON);
         }
 
         //HandleClearButtonClick
@@ -56,8 +68,8 @@ namespace DrawingForm
         {
             _rectangle.Enabled = true;
             _line.Enabled = true;
-            _model.Clear();
-            _model.ChangeShape(DrawingModel.Model.Status.IDLE);
+            _hexagon.Enabled = true;
+            _model.ExecuteClear();
         }
 
         //HandleCanvasPressed
@@ -70,6 +82,9 @@ namespace DrawingForm
         public void HandleCanvasReleased(object sender, MouseEventArgs e)
         {
             _model.ReleasePointer(e.X, e.Y);
+            _rectangle.Enabled = true;
+            _line.Enabled = true;
+            _hexagon.Enabled = true;
         }
 
         //HandleCanvasMoved
@@ -84,10 +99,42 @@ namespace DrawingForm
             _presentationModel.Draw(e.Graphics);
         }
 
+        //HandleUndo
+        private void HandleUndo(object sender, EventArgs e)
+        {
+            _model.Undo();
+        }
+
+        //HandleRedo
+        private void HandleRedo(object sender, EventArgs e)
+        {
+            _model.Redo();
+        }
+
         //HandleModelChanged
         public void HandleModelChanged()
         {
             Invalidate(true);
+            _undo.Enabled = _model.IsUndoEnabled();
+            _redo.Enabled = _model.IsRedoEnabled();
+        }
+
+        //HandleShapeSelect
+        public void HandleShapeSelect(string shapeInfo)
+        {
+            _info.Text = shapeInfo;
+        }
+
+        //HandleSaveClick
+        private void HandleSaveClick(object sender, EventArgs e)
+        {
+
+        }
+
+        //HandleLoadClick
+        private void HandleLoadClick(object sender, EventArgs e)
+        {
+
         }
     }
 }

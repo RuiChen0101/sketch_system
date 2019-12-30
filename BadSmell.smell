@@ -188,204 +188,12 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
-              <SmellType>Literal constants(字面常數)-"_canvas"</SmellType>
-              <HashCode>LiteralConstants.CANVAS_ACCESS."_canvas"</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>MainWindow.cs</File>
-              <Line>15</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>2</Id>
-              <SmellType>Static method and fields(濫用Static)</SmellType>
-              <HashCode>StaticMethodAndFields 26514643</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>MainWindow.cs</File>
-              <Line>15</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>3</Id>
-              <SmellType>ICS(變數-1)</SmellType>
-              <HashCode>Variable1.MainWindow.CANVAS_ACCESS</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>MainWindow.cs</File>
-              <Line>15</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(變數-1) Class 成員變數以底線開始，底線後第一個字母小寫，若由多個單字組成，從第二個單字開始，每個單字的第一個字母大寫，其餘小寫。 不以底線區隔單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>4</Id>
               <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
-              <HashCode>UnsuitableNaming.Model.PressPointer.x</HashCode>
+              <HashCode>UnsuitableNaming.DrawState.PressPointer.x</HashCode>
               <Severity>Warning</Severity>
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>45</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>5</Id>
-              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
-              <HashCode>UnsuitableNaming.Model.PressPointer.y</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>45</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>6</Id>
-              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
-              <HashCode>UnsuitableNaming.Model.MovePointer.x</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>56</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>7</Id>
-              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
-              <HashCode>UnsuitableNaming.Model.MovePointer.y</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>56</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>8</Id>
-              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
-              <HashCode>UnsuitableNaming.Model.ReleasePointer.x</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>67</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>9</Id>
-              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
-              <HashCode>UnsuitableNaming.Model.ReleasePointer.y</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>67</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>10</Id>
-              <SmellType>Literal constants(字面常數)-"Rectangle"</SmellType>
-              <HashCode>LiteralConstants.DrawRectangle."Rectangle"</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingUITest</Project>
-              <File>DrawingTestTool.cs</File>
-              <Line>16</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>11</Id>
-              <SmellType>Literal constants(字面常數)-"Line"</SmellType>
-              <HashCode>LiteralConstants.DrawLine."Line"</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingUITest</Project>
-              <File>DrawingTestTool.cs</File>
-              <Line>25</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>12</Id>
-              <SmellType>Long parameter list(過長參數列)</SmellType>
-              <HashCode>LongParameterList.DrawingTestTool.DrawRectangle.string name;int x1;int y1;int x2;int y2;</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>5</Weight>
-              <Project>DrawingUITest</Project>
-              <File>DrawingTestTool.cs</File>
-              <Line>14</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>13</Id>
-              <SmellType>Long parameter list(過長參數列)</SmellType>
-              <HashCode>LongParameterList.DrawingTestTool.DrawLine.string name;int x1;int y1;int x2;int y2;</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>5</Weight>
-              <Project>DrawingUITest</Project>
-              <File>DrawingTestTool.cs</File>
+              <File>DrawState.cs</File>
               <Line>23</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
@@ -395,14 +203,206 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>14</Id>
-              <SmellType>Unresolved warnings(忽視警告)-載入專案時發生錯誤。已停用部分專案功能，例如對失敗專案及其相依專案的完整解決方案分析。</SmellType>
-              <HashCode>DrawingTest\DrawingTest..Unresolved warnings(忽視警告)-載入專案時發生錯誤。已停用部分專案功能，例如對失敗專案及其相依專案的完整解決方案分析。.1</HashCode>
+              <Id>2</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.DrawState.PressPointer.y</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>DrawState.cs</File>
+              <Line>23</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.DrawState.MovePointer.x</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>DrawState.cs</File>
+              <Line>34</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.DrawState.MovePointer.y</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>DrawState.cs</File>
+              <Line>34</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.DrawState.ReleasePointer.x</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>DrawState.cs</File>
+              <Line>44</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.DrawState.ReleasePointer.y</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>DrawState.cs</File>
+              <Line>44</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Unsuitable naming(名不符實)-Hexagon(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.DrawingModel.Hexagon.Hexagon</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingTest\DrawingTest</Project>
-              <File />
-              <Line>1</Line>
+              <Project>DrawingForm</Project>
+              <File>Hexagon.cs</File>
+              <Line>10</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Unsuitable naming(名不符實)-DrawHexagon(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.IGraphics.DrawHexagon.DrawHexagon</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>IGraphics.cs</File>
+              <Line>22</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.IMouseState.PressPointer.x</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>IMouseState.cs</File>
+              <Line>12</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.IMouseState.PressPointer.y</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>IMouseState.cs</File>
+              <Line>12</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.IMouseState.MovePointer.x</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>IMouseState.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.IMouseState.MovePointer.y</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>IMouseState.cs</File>
+              <Line>15</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.IMouseState.ReleasePointer.x</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>IMouseState.cs</File>
+              <Line>18</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.IMouseState.ReleasePointer.y</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>IMouseState.cs</File>
+              <Line>18</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -412,13 +412,13 @@
             </Smell>
             <Smell>
               <Id>15</Id>
-              <SmellType>Unresolved warnings(忽視警告)-此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 ..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.props。</SmellType>
-              <HashCode>DrawingTest\DrawingTest.DrawingTest.csproj.Unresolved warnings(忽視警告)-此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 ..\packages\MSTest.TestAdapter.1.3.2\build\net45\MSTest.TestAdapter.props。.80</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Line.SetResizePoint.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingTest\DrawingTest</Project>
-              <File>DrawingTest.csproj</File>
-              <Line>80</Line>
+              <Project>DrawingForm</Project>
+              <File>Line.cs</File>
+              <Line>43</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -428,13 +428,13 @@
             </Smell>
             <Smell>
               <Id>16</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetDelayBetweenActions 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SetDelayBetweenActions 缺乏註解.20</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Line.SetResizePoint.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>20</Line>
+              <Project>DrawingForm</Project>
+              <File>Line.cs</File>
+              <Line>43</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -444,13 +444,13 @@
             </Smell>
             <Smell>
               <Id>17</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 Initialize 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 Initialize 缺乏註解.25</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Line.SetStartPoint.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>25</Line>
+              <Project>DrawingForm</Project>
+              <File>Line.cs</File>
+              <Line>64</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -460,13 +460,13 @@
             </Smell>
             <Smell>
               <Id>18</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 CleanUp 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 CleanUp 缺乏註解.41</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Line.SetStartPoint.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>41</Line>
+              <Project>DrawingForm</Project>
+              <File>Line.cs</File>
+              <Line>64</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -476,44 +476,12 @@
             </Smell>
             <Smell>
               <Id>19</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetForm 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SetForm 缺乏註解.48</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Line.OnDrag.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>48</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>20</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 FindWinControl 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 FindWinControl 缺乏註解.57</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>57</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>21</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 FindPanel 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 FindPanel 缺乏註解.72</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
+              <Project>DrawingForm</Project>
+              <File>Line.cs</File>
               <Line>72</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
@@ -523,14 +491,14 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>22</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 CacheFound 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 CacheFound 缺乏註解.87</HashCode>
-              <Severity>Red</Severity>
+              <Id>20</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Line.OnDrag.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>87</Line>
+              <Project>DrawingForm</Project>
+              <File>Line.cs</File>
+              <Line>72</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -539,14 +507,46 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>23</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 CacheComponentFound 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 CacheComponentFound 缺乏註解.93</HashCode>
+              <Id>21</Id>
+              <SmellType>Unsuitable naming(名不符實)-HandleHexagonButtonClick(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.MainWindow.HandleHexagonButtonClick.HandleHexagonButtonClick</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>93</Line>
+              <Project>DrawingForm</Project>
+              <File>MainWindow.cs</File>
+              <Line>58</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>ICS(函式-4)</SmellType>
+              <HashCode>Method4.MainWindow.HandleShapeSelect</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>MainWindow.cs</File>
+              <Line>123</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-4) Setter 一律使用 SetXXX()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>Unsuitable naming(名不符實)-_hexagon(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.MainWindow._hexagon._hexagon</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>MainWindow.Designer.cs</File>
+              <Line>170</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -556,13 +556,13 @@
             </Smell>
             <Smell>
               <Id>24</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickMenuItem 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickMenuItem 缺乏註解.103</HashCode>
+              <SmellType>Unsuitable naming(名不符實)-HEXAGON(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.ShapeType.HEXAGON.HEXAGON</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>103</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>21</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -572,13 +572,13 @@
             </Smell>
             <Smell>
               <Id>25</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickDateTimePicker 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickDateTimePicker 缺乏註解.111</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Model.PressPointer.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>111</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>42</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -588,13 +588,13 @@
             </Smell>
             <Smell>
               <Id>26</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickButton 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickButton 缺乏註解.117</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Model.PressPointer.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>117</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>42</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -604,13 +604,13 @@
             </Smell>
             <Smell>
               <Id>27</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickTabControl 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickTabControl 缺乏註解.123</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Model.MovePointer.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>123</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>49</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -620,13 +620,13 @@
             </Smell>
             <Smell>
               <Id>28</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetEdit 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SetEdit 缺乏註解.149</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Model.MovePointer.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>149</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>49</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -636,13 +636,13 @@
             </Smell>
             <Smell>
               <Id>29</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertOtherFormEdit 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertOtherFormEdit 缺乏註解.156</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Model.ReleasePointer.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>156</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>56</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -652,13 +652,13 @@
             </Smell>
             <Smell>
               <Id>30</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetOtherFormEdit 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SetOtherFormEdit 缺乏註解.166</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Model.ReleasePointer.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>166</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>56</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -668,13 +668,13 @@
             </Smell>
             <Smell>
               <Id>31</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickOtherFormButton 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickOtherFormButton 缺乏註解.177</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Model.CheckShapeClick.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>177</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>109</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -684,13 +684,13 @@
             </Smell>
             <Smell>
               <Id>32</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 CloseWindow 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 CloseWindow 缺乏註解.187</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Model.CheckShapeClick.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>187</Line>
+              <Project>DrawingForm</Project>
+              <File>Model.cs</File>
+              <Line>109</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -700,13 +700,13 @@
             </Smell>
             <Smell>
               <Id>33</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertOtherFormButtonEnable 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertOtherFormButtonEnable 缺乏註解.199</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.PointerState.PressPointer.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>199</Line>
+              <Project>DrawingForm</Project>
+              <File>PointerState.cs</File>
+              <Line>21</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -716,13 +716,13 @@
             </Smell>
             <Smell>
               <Id>34</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 DeleteDataGridViewByIndex 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 DeleteDataGridViewByIndex 缺乏註解.224</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.PointerState.PressPointer.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>224</Line>
+              <Project>DrawingForm</Project>
+              <File>PointerState.cs</File>
+              <Line>21</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -732,13 +732,13 @@
             </Smell>
             <Smell>
               <Id>35</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickListViewByValue 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickListViewByValue 缺乏註解.248</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>248</Line>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.PointerState.PressPointer.21double x;double y;</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>21</Weight>
+              <Project>DrawingForm</Project>
+              <File>PointerState.cs</File>
+              <Line>21</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -748,13 +748,13 @@
             </Smell>
             <Smell>
               <Id>36</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickListViewToEmpty 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickListViewToEmpty 缺乏註解.265</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.PointerState.MovePointer.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>265</Line>
+              <Project>DrawingForm</Project>
+              <File>PointerState.cs</File>
+              <Line>44</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -764,13 +764,13 @@
             </Smell>
             <Smell>
               <Id>37</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetNumericUpDown 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SetNumericUpDown 缺乏註解.274</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.PointerState.MovePointer.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>274</Line>
+              <Project>DrawingForm</Project>
+              <File>PointerState.cs</File>
+              <Line>44</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -780,13 +780,13 @@
             </Smell>
             <Smell>
               <Id>38</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetComboBox 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SetComboBox 缺乏註解.282</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.PointerState.ReleasePointer.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>282</Line>
+              <Project>DrawingForm</Project>
+              <File>PointerState.cs</File>
+              <Line>54</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -796,13 +796,13 @@
             </Smell>
             <Smell>
               <Id>39</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetCheckBox 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SetCheckBox 缺乏註解.289</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.PointerState.ReleasePointer.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>289</Line>
+              <Project>DrawingForm</Project>
+              <File>PointerState.cs</File>
+              <Line>54</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -812,13 +812,13 @@
             </Smell>
             <Smell>
               <Id>40</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertEdit 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertEdit 缺乏註解.315</HashCode>
+              <SmellType>Unsuitable naming(名不符實)-DrawHexagon(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.WindowsFormsGraphicsAdaptor.DrawHexagon.DrawHexagon</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>315</Line>
+              <Project>DrawingForm</Project>
+              <File>WindowsFormsGraphicsAdaptor.cs</File>
+              <Line>41</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -828,29 +828,29 @@
             </Smell>
             <Smell>
               <Id>41</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertText 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertText 缺乏註解.321</HashCode>
+              <SmellType>ICS(函式-3)</SmellType>
+              <HashCode>Method3.Shape.Clone</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>321</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>48</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment />
+              <Comment>ICS(函式-3) Getter 除了取得 bool 值使用 IsXXX()之外，其餘一律使用 GetXXX()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>42</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertCheckBox 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertCheckBox 缺乏註解.327</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.IsShapeClick.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>327</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>66</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -860,13 +860,13 @@
             </Smell>
             <Smell>
               <Id>43</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertNumericUpDown 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertNumericUpDown 缺乏註解.332</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.IsShapeClick.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>332</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>66</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -876,13 +876,13 @@
             </Smell>
             <Smell>
               <Id>44</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertDateTimePicker 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertDateTimePicker 缺乏註解.337</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.IsShapeResizeClick.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>337</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>72</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -892,13 +892,13 @@
             </Smell>
             <Smell>
               <Id>45</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertComboBox 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertComboBox 缺乏註解.344</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.IsShapeResizeClick.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>344</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>72</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -908,13 +908,13 @@
             </Smell>
             <Smell>
               <Id>46</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertListViewByValue 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertListViewByValue 缺乏註解.350</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetResizePoint.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>350</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>84</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -924,13 +924,13 @@
             </Smell>
             <Smell>
               <Id>47</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertDataGridViewByIndex 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertDataGridViewByIndex 缺乏註解.363</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetResizePoint.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>363</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>84</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -940,13 +940,13 @@
             </Smell>
             <Smell>
               <Id>48</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertDataItemsInDataGridView 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertDataItemsInDataGridView 缺乏註解.377</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetStartPoint.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>377</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>91</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -956,13 +956,13 @@
             </Smell>
             <Smell>
               <Id>49</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertButtonEnable 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertButtonEnable 缺乏註解.383</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetStartPoint.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>383</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>91</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -972,13 +972,13 @@
             </Smell>
             <Smell>
               <Id>50</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 AssertWindow 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 AssertWindow 缺乏註解.389</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.OnDrag.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>389</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>100</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -988,13 +988,13 @@
             </Smell>
             <Smell>
               <Id>51</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SendKeyEnterToMessageBox 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 SendKeyEnterToMessageBox 缺乏註解.396</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.OnDrag.y</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>396</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>100</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1004,29 +1004,29 @@
             </Smell>
             <Smell>
               <Id>52</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickRadioButton 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickRadioButton 缺乏註解.402</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.Shape.OnDrag</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>402</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>100</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment />
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>53</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ClickHyperlink 缺乏註解</SmellType>
-              <HashCode>DrawingUITest\DrawingUITest.Robot.cs.Unresolved warnings(忽視警告)-函式 ClickHyperlink 缺乏註解.408</HashCode>
-              <Severity>Red</Severity>
+              <SmellType>Unsuitable naming(名不符實)-x(x)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetStopPoint.x</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>DrawingUITest\DrawingUITest</Project>
-              <File>Robot.cs</File>
-              <Line>408</Line>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>107</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1036,13 +1036,141 @@
             </Smell>
             <Smell>
               <Id>54</Id>
+              <SmellType>Unsuitable naming(名不符實)-y(y)</SmellType>
+              <HashCode>UnsuitableNaming.Shape.SetStopPoint.y</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>Shape.cs</File>
+              <Line>107</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>55</Id>
+              <SmellType>Unsuitable naming(名不符實)-HandleHexagonButtonClick(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.MainPage.HandleHexagonButtonClick.HandleHexagonButtonClick</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>MainPage.xaml.cs</File>
+              <Line>55</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>56</Id>
+              <SmellType>ICS(函式-4)</SmellType>
+              <HashCode>Method4.MainPage.HandleShapeSelect</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>MainPage.xaml.cs</File>
+              <Line>102</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-4) Setter 一律使用 SetXXX()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>57</Id>
+              <SmellType>ICS(縮排與換行-1)</SmellType>
+              <HashCode>IndentAndNewLine1.DrawDashBorder.            rectangle.StrokeDashArray = new DoubleCollection { DASH_GAP, DASH_LENGTH };</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>81</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(縮排與換行-1) 左大括號一律換行</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>58</Id>
+              <SmellType>ICS(縮排與換行-3)</SmellType>
+              <HashCode>IndentAndNewLine3.DrawDashBorder.            rectangle.StrokeDashArray = new DoubleCollection { DASH_GAP, DASH_LENGTH };</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>81</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(縮排與換行-3) 左大括號後，一律換行撰寫程式碼</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>59</Id>
+              <SmellType>Unsuitable naming(名不符實)-polygon(polygon)</SmellType>
+              <HashCode>UnsuitableNaming.WindowsStoreGraphicsAdaptor.DrawHexagon.polygon</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>55</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>60</Id>
+              <SmellType>Unsuitable naming(名不符實)-DrawHexagon(hexagon)</SmellType>
+              <HashCode>UnsuitableNaming.WindowsStoreGraphicsAdaptor.DrawHexagon.DrawHexagon</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>53</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>61</Id>
+              <SmellType>Long method(過長函式)</SmellType>
+              <HashCode>LongMethod.WindowsStoreGraphicsAdaptor.DrawDashBorder.44double x1;double y1;double x2;double y2;</HashCode>
+              <Severity>Red</Severity>
+              <Weight>44</Weight>
+              <Project>DrawingApp</Project>
+              <File>WindowsStoreGraphicsAdaptor.cs</File>
+              <Line>68</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>62</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>44 DrawingApp.MainPage.UnloadObject(Windows.UI.Xaml.DependencyObject)</HashCode>
+              <HashCode>52 DrawingApp.MainPage.UnloadObject(Windows.UI.Xaml.DependencyObject)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>DrawingApp</Project>
               <File>MainPage.g.i.cs</File>
-              <Line>44</Line>
+              <Line>52</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
@@ -1051,7 +1179,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>55</Id>
+              <Id>63</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <HashCode>129 DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByType(System.Type)</HashCode>
               <Severity>Red</Severity>
@@ -1067,7 +1195,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>56</Id>
+              <Id>64</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <HashCode>134 DrawingApp.DrawingApp_XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByName(string)</HashCode>
               <Severity>Red</Severity>
@@ -1083,7 +1211,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>57</Id>
+              <Id>65</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <HashCode>20 DrawingApp.Program.Main(string[])</HashCode>
               <Severity>Red</Severity>
@@ -1099,163 +1227,371 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>58</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>25 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>25</Line>
-              <StartLine>25</StartLine>
-              <StartCol>16</StartCol>
-              <EndLine>25</EndLine>
-              <EndCol>25</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>59</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>28 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>28</Line>
-              <StartLine>27</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>28</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>60</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>29 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>29</Line>
-              <StartLine>28</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>29</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>61</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>33 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>33</Line>
-              <StartLine>32</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>33</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>62</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>34 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>34</Line>
-              <StartLine>33</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>34</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>63</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>40 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>40</Line>
-              <StartLine>40</StartLine>
-              <StartCol>16</StartCol>
-              <EndLine>40</EndLine>
-              <EndCol>24</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>64</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>43 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>43</Line>
-              <StartLine>42</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>43</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>65</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>44 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>44</Line>
-              <StartLine>43</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>44</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
               <Id>66</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>48 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
-              <Severity>Red</Severity>
+              <HashCode>44 目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2</HashCode>
+              <Severity>Warning</Severity>
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
-              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>48</Line>
-              <StartLine>47</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>48</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</Comment>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Hexagon.cs</File>
+              <Line>44</Line>
+              <StartLine>44</StartLine>
+              <StartCol>19</StartCol>
+              <EndLine>44</EndLine>
+              <EndCol>47</EndCol>
+              <Comment>目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>67</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>49 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</HashCode>
+              <HashCode>45 目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Hexagon.cs</File>
+              <Line>45</Line>
+              <StartLine>45</StartLine>
+              <StartCol>19</StartCol>
+              <EndLine>45</EndLine>
+              <EndCol>46</EndCol>
+              <Comment>目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>68</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>46 目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Hexagon.cs</File>
+              <Line>46</Line>
+              <StartLine>46</StartLine>
+              <StartCol>30</StartCol>
+              <EndLine>46</EndLine>
+              <EndCol>51</EndCol>
+              <Comment>目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>69</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>46 目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：1次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Hexagon.cs</File>
+              <Line>46</Line>
+              <StartLine>46</StartLine>
+              <StartCol>19</StartCol>
+              <EndLine>46</EndLine>
+              <EndCol>72</EndCol>
+              <Comment>目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：1次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>70</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>47 目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Hexagon.cs</File>
+              <Line>47</Line>
+              <StartLine>47</StartLine>
+              <StartCol>30</StartCol>
+              <EndLine>47</EndLine>
+              <EndCol>51</EndCol>
+              <Comment>目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>71</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>47 目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：1次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Hexagon.cs</File>
+              <Line>47</Line>
+              <StartLine>47</StartLine>
+              <StartCol>19</StartCol>
+              <EndLine>47</EndLine>
+              <EndCol>73</EndCol>
+              <Comment>目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：1次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>72</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>48 目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Hexagon.cs</File>
+              <Line>48</Line>
+              <StartLine>48</StartLine>
+              <StartCol>29</StartCol>
+              <EndLine>48</EndLine>
+              <EndCol>60</EndCol>
+              <Comment>目前物件 DrawingModel.Hexagon，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>73</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>24 目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\PointerState.cs</File>
+              <Line>24</Line>
+              <StartLine>24</StartLine>
+              <StartCol>20</StartCol>
+              <EndLine>24</EndLine>
+              <EndCol>60</EndCol>
+              <Comment>目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>74</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>30 目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\PointerState.cs</File>
+              <Line>30</Line>
+              <StartLine>29</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>30</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>75</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>34 目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Model.CheckShapeClick(double, double) 以及 DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\PointerState.cs</File>
+              <Line>34</Line>
+              <StartLine>33</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>34</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Model.CheckShapeClick(double, double) 以及 DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>76</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>39 目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.CheckShapeClick(double, double) 以及 DrawingModel.Model.Selected</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\PointerState.cs</File>
+              <Line>39</Line>
+              <StartLine>38</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>39</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.CheckShapeClick(double, double) 以及 DrawingModel.Model.Selected</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>77</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>48 目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\PointerState.cs</File>
+              <Line>48</Line>
+              <StartLine>47</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>48</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.Selected 以及 DrawingModel.Model.Selected</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>78</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>58 目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.FinishResize(double, double, double, double) 以及 DrawingModel.Model.Selected</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\PointerState.cs</File>
+              <Line>58</Line>
+              <StartLine>57</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>58</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.PointerState，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Model.FinishResize(double, double, double, double) 以及 DrawingModel.Model.Selected</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>79</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>43 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>43</Line>
+              <StartLine>43</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>43</EndLine>
+              <EndCol>25</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>80</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>46 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>DrawingForm</Project>
               <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
-              <Line>49</Line>
-              <StartLine>48</StartLine>
+              <Line>46</Line>
+              <StartLine>45</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>49</EndLine>
+              <EndLine>46</EndLine>
               <EndCol>0</EndCol>
-              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape.y1</Comment>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>81</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>47 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>47</Line>
+              <StartLine>46</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>47</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>82</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>51 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>51</Line>
+              <StartLine>50</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>51</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>83</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>52 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>52</Line>
+              <StartLine>51</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>52</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1 以及 DrawingModel.Shape._x2 以及 DrawingModel.Shape._x1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>84</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>58 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>58</Line>
+              <StartLine>58</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>58</EndLine>
+              <EndCol>25</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>85</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>61 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>61</Line>
+              <StartLine>60</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>61</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>86</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>62 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>62</Line>
+              <StartLine>61</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>62</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>87</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>66 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>66</Line>
+              <StartLine>65</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>66</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>88</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>67 目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>E:\files\C++\wpc\sketch_system\DrawingModel\Rectangle.cs</File>
+              <Line>67</Line>
+              <StartLine>66</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>67</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Rectangle，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1 以及 DrawingModel.Shape._y2 以及 DrawingModel.Shape._y1</Comment>
               <Auto>false</Auto>
             </Smell>
           </Reviews>
@@ -1264,12 +1600,47 @@
           <AnalysisFileManager>
             <AnalysisFiles>
               <AnalysisFile>
+                <RelativePath>..\DrawingModel\CanvasClearCommand.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\DrawingModel\CommandManager.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>DoubleBufferedPanel.cs</RelativePath>
                 <ProjectName>DrawingForm</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>..\DrawingModel\DrawCommand.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\DrawingModel\DrawState.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\DrawingModel\Hexagon.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\DrawingModel\ICommand.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>..\DrawingModel\IGraphics.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\DrawingModel\IMouseState.cs</RelativePath>
                 <ProjectName>DrawingForm</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -1290,6 +1661,11 @@
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>..\DrawingModel\Model.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\DrawingModel\PointerState.cs</RelativePath>
                 <ProjectName>DrawingForm</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -1329,7 +1705,17 @@
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>..\DrawingModel\ResizeCommand.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>..\DrawingModel\Shape.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\DrawingModel\ShapeFactory.cs</RelativePath>
                 <ProjectName>DrawingForm</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -1364,6 +1750,11 @@
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>CommandTest.cs</RelativePath>
+                <ProjectName>DrawingTest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>ModelTest.cs</RelativePath>
                 <ProjectName>DrawingTest</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
@@ -1372,6 +1763,16 @@
                 <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
                 <ProjectName>DrawingTest</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ShapeFactoryTest.cs</RelativePath>
+                <ProjectName>DrawingTest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ShapeTest.cs</RelativePath>
+                <ProjectName>DrawingTest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>TestGraphicsAdaptor.cs</RelativePath>
@@ -1400,8 +1801,8 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>899</ProductionLoc>
-          <TestLoc>718</TestLoc>
+          <ProductionLoc>1751</ProductionLoc>
+          <TestLoc>1168</TestLoc>
         </CodeReview>
       </Data>
     </div>

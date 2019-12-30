@@ -61,45 +61,12 @@
     <timestamps>
       <styleCop>2019/11/11 21:37:12.789</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2019/12/06 16:22:41.307</sourceFile>
+      <sourceFile>2019/12/24 16:44:16.795</sourceFile>
       <parser>2019/11/11 21:37:12.789</parser>
       <KellyPalRules.KellyPalAnalyzer>2019/11/11 21:37:12.789</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="LiteralConstants" ruleCheckId="LC0001">
-        <context>Literal constants(字面常數)-"Rectangle"</context>
-        <line>16</line>
-        <index>406</index>
-        <endIndex>416</endIndex>
-        <startLine>16</startLine>
-        <startColumn>25</startColumn>
-        <endLine>16</endLine>
-        <endColumn>35</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="LongParameterList" ruleCheckId="LP0001">
-        <context>Long parameter list(過長參數列)</context>
-        <line>14</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="LiteralConstants" ruleCheckId="LC0001">
-        <context>Literal constants(字面常數)-"Line"</context>
-        <line>25</line>
-        <index>751</index>
-        <endIndex>756</endIndex>
-        <startLine>25</startLine>
-        <startColumn>25</startColumn>
-        <endLine>25</endLine>
-        <endColumn>30</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="LongParameterList" ruleCheckId="LP0001">
-        <context>Long parameter list(過長參數列)</context>
-        <line>23</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
@@ -127,7 +94,7 @@
     <timestamps>
       <styleCop>2019/11/11 21:37:12.789</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2019/12/05 23:42:59.018</sourceFile>
+      <sourceFile>2019/12/24 17:22:02.140</sourceFile>
       <parser>2019/11/11 21:37:12.789</parser>
       <KellyPalRules.KellyPalAnalyzer>2019/11/11 21:37:12.789</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>

@@ -13,13 +13,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// 空白頁項目範本已記錄在 https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x404
-
 namespace DrawingApp
 {
-    /// <summary>
-    /// 可以在本身使用或巡覽至框架內的空白頁面。
-    /// </summary>
     public sealed partial class MainPage : Page
     {
         DrawingModel.Model _model;
@@ -35,6 +30,7 @@ namespace DrawingApp
             _canvas.PointerMoved += HandleCanvasMoved;
             _clear.Click += HandleClearButtonClick;
             _model._modelChanged += HandleModelChanged;
+            _model._shapeSelect += HandleShapeSelect;
         }
 
         //HandleRectangleButtonClick
@@ -42,7 +38,8 @@ namespace DrawingApp
         {
             _rectangle.IsEnabled = false;
             _line.IsEnabled = true;
-            _model.ChangeShape(DrawingModel.Model.Status.RECTANGLE);
+            _hexagon.IsEnabled = true;
+            _model.ChangeShape(DrawingModel.Model.ShapeType.RECTANGLE);
         }
 
         //HandleLineButtonClick
@@ -50,7 +47,17 @@ namespace DrawingApp
         {
             _rectangle.IsEnabled = true;
             _line.IsEnabled = false;
-            _model.ChangeShape(DrawingModel.Model.Status.LINE);
+            _hexagon.IsEnabled = true;
+            _model.ChangeShape(DrawingModel.Model.ShapeType.LINE);
+        }
+
+        //HandleHexagonButtonClick
+        public void HandleHexagonButtonClick(object sender, RoutedEventArgs e)
+        {
+            _rectangle.IsEnabled = true;
+            _line.IsEnabled = true;
+            _hexagon.IsEnabled = false;
+            _model.ChangeShape(DrawingModel.Model.ShapeType.HEXAGON);
         }
 
         //HandleClearButtonClick
@@ -58,8 +65,8 @@ namespace DrawingApp
         {
             _rectangle.IsEnabled = true;
             _line.IsEnabled = true;
-            _model.ChangeShape(DrawingModel.Model.Status.IDLE);
-            _model.Clear();
+            _hexagon.IsEnabled = true;
+            _model.ExecuteClear();
         }
 
         //HandleCanvasPressed
@@ -72,6 +79,9 @@ namespace DrawingApp
         public void HandleCanvasReleased(object sender, PointerRoutedEventArgs e)
         {
             _model.ReleasePointer(e.GetCurrentPoint(_canvas).Position.X,e.GetCurrentPoint(_canvas).Position.Y);
+            _rectangle.IsEnabled = true;
+            _line.IsEnabled = true;
+            _hexagon.IsEnabled = true;
         }
 
         //HandleCanvasMoved
@@ -84,6 +94,26 @@ namespace DrawingApp
         public void HandleModelChanged()
         {
             _presentationModel.Draw();
+            _undo.IsEnabled = _model.IsUndoEnabled();
+            _redo.IsEnabled = _model.IsRedoEnabled();
+        }
+
+        //HandleShapeSelect
+        public void HandleShapeSelect(string shapeInfo)
+        {
+            _info.Text = shapeInfo;
+        }
+
+        //HandleUndo
+        private void HandleUndo(object sender, RoutedEventArgs e)
+        {
+            _model.Undo();
+        }
+
+        //HandleRedo
+        private void HandleRedo(object sender, RoutedEventArgs e)
+        {
+            _model.Redo();
         }
     }
 }

@@ -11,6 +11,40 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <sourcecode name="Hexagon.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/11/11 21:37:12.789</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2019/12/23 13:34:27.784</sourceFile>
+      <parser>2019/11/11 21:37:12.789</parser>
+      <KellyPalRules.KellyPalAnalyzer>2019/11/11 21:37:12.789</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="KellyPalRules.KellyPalAnalyzer" rule="UnsuitableNaming" ruleCheckId="UN0001">
+        <context>Unsuitable naming(名不符實)-Hexagon(hexagon)</context>
+        <line>9</line>
+        <index>154</index>
+        <endIndex>336</endIndex>
+        <startLine>9</startLine>
+        <startColumn>5</startColumn>
+        <endLine>16</endLine>
+        <endColumn>5</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="ShapeFactory.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2019/11/11 21:37:12.789</styleCop>
+      <settingsFile>0001/01/01 00:00:00.000</settingsFile>
+      <sourceFile>2019/12/23 13:36:44.462</sourceFile>
+      <parser>2019/11/11 21:37:12.789</parser>
+      <KellyPalRules.KellyPalAnalyzer>2019/11/11 21:37:12.789</KellyPalRules.KellyPalAnalyzer>
+      <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
   <project key="1963880670">
     <configuration>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</configuration>
   </project>
